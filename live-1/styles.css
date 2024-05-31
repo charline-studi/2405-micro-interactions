@@ -1,0 +1,26 @@
+/* 
+Micro-intéractions les principes :
+> TRIGGER : Quand ? Click, Survol, Scroll, Case cochée, etc...
+> RÈGLE : Chaque élément cliquable doit avoir une animation de survol
+*/
+
+
+/* ETAT A */
+.change-color {
+    color: white;
+    background-color: black;
+    /* Version longue :
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0,.45,0,1);
+    */
+    /* transition: background-color 1s cubic-bezier(0,.45,0,1), color 1s cubic-bezier(0,.45,0,1); */
+    transition: all 5s cubic-bezier(0,.45,0,1);
+}
+
+/* ETAT B */
+.change-color:hover {
+    color: red;
+    background-color: chartreuse;
+}
