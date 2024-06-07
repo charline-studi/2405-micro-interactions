@@ -16,13 +16,16 @@ Ce cours est composé d'une série de 6 lives d'une heure, et durant chaque live
 
 ## Planning
 
-| Numéro | Date       | Heure     | Titre                                                    | Replay                                      |
-| ------ | ---------- | --------- | -------------------------------------------------------- | ------------------------------------------- |
-| 01     | 31/05/2024 | 14h - 15h | La propriété CSS transition                              | https://app.studi.fr/v3/events/69368/replay |
-| 02     | 07/06/2024 | 14h - 15h | La propriété CSS "animation"                             | Pas encore disponible                       |
-| 03     | 14/06/2024 | 14h - 15h | Optimisation, responsive et accessibilité des animations | Pas encore disponible                       |
-| 04     | 09/11/2023 | 14h - 15h | Animer des balises svg                                   | Pas encore disponible                       |
-| 05     | 24/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                       |
-| 06     | 28/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                       |
+| Numéro | Date       | Heure     | Titre                                                    | Replay                                                                                  |
+| ------ | ---------- | --------- | -------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 01     | 31/05/2024 | 14h - 15h | La propriété CSS transition                              | https://app.studi.fr/v3/events/69368/replay                                             |
+| 02     | 07/06/2024 | 14h - 15h | La propriété CSS "animation"                             | https://app.studi.fr/v3/events/69369/detailshttps://app.studi.fr/v3/events/69369/replay |
+| 03     | 14/06/2024 | 14h - 15h | Optimisation, responsive et accessibilité des animations | Pas encore disponible                                                                   |
+| 04     | 09/11/2023 | 14h - 15h | Animer des balises svg                                   | Pas encore disponible                                                                   |
+| 05     | 24/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
+| 06     | 28/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
 
 ## Ressources
+
+- [Dcoumentation transition](https://developer.mozilla.org/fr/docs/Web/CSS/transition)
+- [Documentation animaiton](https://developer.mozilla.org/fr/docs/Web/CSS/animation)

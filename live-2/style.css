@@ -1,0 +1,80 @@
+/* animation: change mon texte de couleur toutes les x seconde sans fin */;
+.blink-color {
+    color: blue;
+    animation-name: colorBlink;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorBlink {
+    0% {
+        color: red
+    }
+    50% {
+        color: green
+    }
+    100% {
+        color: yellow
+    }
+}
+
+
+/* animation : plusieurs propriétés CSS qui s'animent en boucle avec un mouvement Aller / Retour*/
+.square {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    animation-name: squareAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-delay: 2s;
+}
+
+@keyframes squareAnimation {
+    0% {
+        left: 0;
+        background-color: black;
+        border-radius: 0;
+    }
+    50% {
+        border-radius: 50%;
+    }
+    100% {
+        left: calc(100% - 20px);
+        background-color: red;
+    } 
+}
+
+
+.progress {
+    margin-top: 100px;
+    width: 100%;
+    height: 50px;
+    border: solid 1px black
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    animation-name: progression;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+}
+
+.progress:hover .progress-bar {
+    animation-play-state: running;
+}
+
+@keyframes progression {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 100%;
+    }
+}
