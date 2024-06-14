@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    color: white;
+    background-image: url(https://picsum.photos/300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+a {
+    color: inherit;
+}
+
+/* 
+Si des micro-interactions au hover contiennent 
+un contenu important pour le parcours utilisateur
+on les affichent par défaut sur mobile.
+*/
+@media screen and (min-width: 700px) {
+
+    .card .text:nth-child(2) {
+        transition-delay: 0;
+    }
+
+    .card .text {
+        position: relative;
+        opacity: 0;
+        top: 20px;
+        transition: all 0.3s ease-out;
+    }
+
+    .card:hover .text:nth-child(2) {
+        transition-delay: 0.15s;
+    }
+
+    .card:hover .text {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
+.promo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: anim-promo 500ms ease infinite alternate;
+    background-color: yellow;
+}
+
+@keyframes anim-promo {
+    0% {
+        background-color: yellow;
+        transform: scale(1, 1);
+    }
+    100% {
+        background-color: blue;
+        transform: scale(1.5, 1.5);
+    }
+}
+
+/*
+Pour les personnes qui ne souhaitent pas avoir d'animation,
+et qui ont paramétré leur machine comme cela,
+on désactive toutes les animations.
+*/
+@media screen and (prefers-reduced-motion: reduce) {
+
+    * {
+        animation: none !important;
+    }
+
+}
+
+
+.square {
+    width: 300px;
+    height: 300px;
+    background: black;
+}
+
+.square a {
+    display: block;
+    color: white;
+    font-size: 30px;
+    transition: all 2s ease;
+    position: relative;
+    top: 20px;
+    /* 
+    Je rend mon élément invisible et non cliquable
+    comme un display none
+    */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.square:hover a {
+    top: 0;
+    /* Je rend mon élément visible et cliquable */
+    opacity: 1;
+    pointer-events: initial;
+}
