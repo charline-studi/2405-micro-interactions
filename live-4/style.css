@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+.arrow {
+    background-color: green;
+}
+
+.arrow path {
+    fill: yellow; /* Remplissage, l'équivalent du background-color */
+    stroke: pink; /* Bordure, équivalent border */
+    transition: all 0.5s ease;
+}
+
+.arrow path:hover {
+    stroke-width: 0;
+}
+
+.first-rect {
+    fill: transparent
+}
+
+.first-rect:hover {
+    fill: blue
+}

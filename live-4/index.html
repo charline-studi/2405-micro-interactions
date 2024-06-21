@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le SVG</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Scalable Vector Graphic</h1>
+
+    <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+      <path
+        d="M9.41421 8L18.0208 16.6066L16.6066 18.0208L8 9.41421V17H6V6H17V8H9.41421Z"
+      ></path>
+    </svg>
+
+    <svg>
+      <rect
+        class="first-rect"
+        x="0"
+        y="0"
+        width="100"
+        height="100"
+        rx="15"
+        ry="15"
+      />
+      <rect class="second-rect" x="120" y="0" width="100" height="100" rx="15">
+        <animate
+          attributeName="rx"
+          values="15;50;15"
+          dur="3s"
+          repeatCount="2"
+          begin="click"
+          id="first"
+        />
+        <animate
+          attributeName="fill"
+          values="black;yellow;blue"
+          dur="3s"
+          repeatCount="5"
+          begin="first.end"
+        />
+      </rect>
+    </svg>
+  </body>
+</html>
