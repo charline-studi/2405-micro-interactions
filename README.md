@@ -22,8 +22,8 @@ Ce cours est composé d'une série de 6 lives d'une heure, et durant chaque live
 | 02     | 07/06/2024 | 14h - 15h | La propriété CSS "animation"                             | https://app.studi.fr/v3/events/69369/detailshttps://app.studi.fr/v3/events/69369/replay |
 | 03     | 14/06/2024 | 14h - 15h | Optimisation, responsive et accessibilité des animations | https://app.studi.fr/v3/events/69373/replay                                             |
 | 04     | 09/11/2023 | 14h - 15h | Animer des balises svg                                   | https://app.studi.fr/v3/events/69372/replay                                             |
-| 05     | 24/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
-| 06     | 28/06/2024 | 10h - 11h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
+| 05     | 24/06/2024 | 14h - 15h | On code les animations d'un blog                         | https://app.studi.fr/v3/events/69370/replay                                             |
+| 06     | 25/06/2024 | 17h - 18h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
 
 ## Ressources
 
