@@ -23,7 +23,7 @@ Ce cours est composé d'une série de 6 lives d'une heure, et durant chaque live
 | 03     | 14/06/2024 | 14h - 15h | Optimisation, responsive et accessibilité des animations | https://app.studi.fr/v3/events/69373/replay                                             |
 | 04     | 09/11/2023 | 14h - 15h | Animer des balises svg                                   | https://app.studi.fr/v3/events/69372/replay                                             |
 | 05     | 24/06/2024 | 14h - 15h | On code les animations d'un blog                         | https://app.studi.fr/v3/events/69370/replay                                             |
-| 06     | 25/06/2024 | 17h - 18h | On code les animations d'un blog                         | Pas encore disponible                                                                   |
+| 06     | 25/06/2024 | 17h - 18h | On code les animations d'un blog                         | https://app.studi.fr/v3/events/69371/replay                                             |
 
 ## Ressources
 
@@ -32,3 +32,4 @@ Ce cours est composé d'une série de 6 lives d'une heure, et durant chaque live
 - [Liste des propriétés CCS animables](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_animated_properties)
 - [Liste des évènements begin SVG](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/begin)
 - [Lottie JS](https://lottiefiles.com/fr/web-player)
+- [Générateur d'ombre](https://box-shadow.dev/)
